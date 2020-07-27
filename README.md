@@ -6,5 +6,4 @@ In the future this repository will be integrated with a unified command line, fo
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

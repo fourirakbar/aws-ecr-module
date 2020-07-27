@@ -4,6 +4,12 @@ variable name {
   description = "Name of the repositories"
 }
 
+variable region {
+  type        = string
+  default     = ""
+  description = "Region of the repositories"
+}
+
 variable image_tag_mutability {
   type        = string
   default     = "MUTABLE"
@@ -11,7 +17,7 @@ variable image_tag_mutability {
 }
 
 variable scan_on_push {
-  type        = boolean
+  type        = string
   default     = "TRUE"
   description = ""
 }
