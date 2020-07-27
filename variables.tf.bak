@@ -1,0 +1,17 @@
+variable name {
+  type        = string
+  default     = ""
+  description = "Name of the repositories"
+}
+
+variable image_tag_mutability {
+  type        = string
+  default     = "MUTABLE"
+  description = ""
+}
+
+variable scan_on_push {
+  type        = boolean
+  default     = "TRUE"
+  description = ""
+}
