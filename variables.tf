@@ -21,3 +21,9 @@ variable scan_on_push {
   default     = true
   description = ""
 }
+
+variable env {
+  type        = string
+  default     = ""
+  description = "Specify env for cluster"
+}
