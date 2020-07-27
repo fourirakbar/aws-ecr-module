@@ -17,7 +17,7 @@ variable image_tag_mutability {
 }
 
 variable scan_on_push {
-  type        = string
-  default     = "TRUE"
+  type        = bool
+  default     = true
   description = ""
 }
